@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<jpanel name="Panel0" title="" class="0" bordered="0" scrollbars="0" x="0" y="0" dx="0" dy="0" wx="0" wy="0" fill="0" anchor="0" insets="0,0,0,0" maxx="20" maxy="20">
+   <jpanel name="Panel10" title="Settings" class="0" bordered="1" scrollbars="0" x="0" y="0" dx="10" dy="15" wx="1" wy="0" fill="1" anchor="11" insets="0,0,0,0" maxx="10" maxy="15">
+      <jlabel name="Label9" title="Speed" scrollbars="0" x="0" y="1" dx="5" dy="1" wx="1" wy="1" fill="1" anchor="10" insets="0,0,0,0">
+      </jlabel>
+      <jtextfield name="Text2" x="5" y="1" dx="5" dy="1" wx="1" wy="0" fill="1" anchor="11" insets="0,0,0,0">
+      </jtextfield>
+   </jpanel>
+   <jpanel name="Panel11" title="Options" class="0" bordered="1" scrollbars="0" x="10" y="0" dx="10" dy="15" wx="1" wy="0" fill="1" anchor="11" insets="0,0,0,0" maxx="10" maxy="15">
+      <jlabel name="Label13" title="Unit" scrollbars="0" x="0" y="3" dx="5" dy="1" wx="1" wy="1" fill="1" anchor="11" insets="0,0,0,0">
+      </jlabel>
+      <jcombobox name="Combo1" x="5" y="3" dx="5" dy="1" wx="1" wy="0" fill="1" anchor="11" insets="0,0,0,0">
+         <complists>
+            <complist>
+               <complistitem>byte</complistitem>
+               <complistitem>bit</complistitem>
+            </complist>
+         </complists>
+      </jcombobox>
+   </jpanel>
+   <jpanel name="Panel12" title="ETA" class="0" bordered="1" scrollbars="0" x="0" y="15" dx="20" dy="5" wx="1" wy="0" fill="1" anchor="11" insets="0,0,0,0" maxx="20" maxy="5">
+      <jlabel name="Label16" title="Remaining time: 4 h 52 m 07 s" scrollbars="0" x="2" y="1" dx="18" dy="1" wx="1" wy="1" fill="1" anchor="11" insets="0,0,0,0">
+      </jlabel>
+      <jlabel name="Label17" title="End at: now  + time = ETA" scrollbars="0" x="1" y="3" dx="18" dy="1" wx="1" wy="1" fill="1" anchor="11" insets="0,0,0,0">
+      </jlabel>
+   </jpanel>
+</jpanel>
